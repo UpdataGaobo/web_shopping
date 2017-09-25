@@ -1,0 +1,113 @@
+/*********************************************/
+/********页面内容部分*********/
+/*********************************************/
+section{
+    min-width:1260px;
+    height: auto;
+    /*    background: #3697b4;*/
+    position: relative; 
+    margin-bottom: 100px;
+    overflow-x: hidden;
+}
+/*标题样式*/
+section h1{
+    width: 434px;
+    height: 37px;
+    background-image: url("../img/section_mark.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 34px;
+    margin-bottom: 40px;
+}
+/*内容样式*/
+section .show_title{
+    width: 1260px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding:0 10px;
+}
+/*每一行一列的公共样式*/
+.firstline_firstrow,.firstline_secondrow,
+.secondline_firstrow1,.secondline_firstrow2,
+.secondline_secondrow,.secondline_thirdrow1,
+.secondline_thirdrow2,.thirdline_firstrow1,
+.thirdline_firstrow2{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid #ddd;
+}
+/*第一行第一列*/
+.firstline .firstline_firstrow {
+    width: 814px;
+    height: 388px;
+    background-image: url("../img/furn_low1.jpg");
+    float: left;
+    transition: 1.5s;
+}
+/*第一行第二列*/
+.firstline .firstline_secondrow {
+    width: 388px;
+    height: 388px;
+    background-image: url("../img/frun2_low2.jpg");
+    float: right;
+}
+.secondline{
+    margin-top: 50px;
+}
+.secondline .secondline_firstrow{
+    width: 388px;
+    height: auto;
+    float: left; 
+}
+/* 第二行第一列*/
+.secondline .secondline_firstrow .secondline_firstrow1{
+    height: 388px;
+    background-image: url("../img/frun2_low2.jpg");
+}
+.secondline .secondline_firstrow .secondline_firstrow2{
+    margin-top: 50px;
+    height: 388px;
+    background-image: url("../img/frun2_low2.jpg");
+}
+/* 第二行第二列*/
+.secondline .secondline_secondrow{
+    width: 388px;
+    height: 826px;
+    background-image: url("../img/frun2_low1.jpg");
+    float: left;
+    margin-left: 38px;
+}
+/* 第二行第三列*/
+.secondline .secondline_thirdrow{
+    width: 388px;
+    height: auto;
+    float: right;
+}
+.secondline .secondline_thirdrow .secondline_thirdrow1{
+    height: 388px;
+    background-image: url("../img/frun2_low2.jpg");
+}
+.secondline .secondline_thirdrow .secondline_thirdrow2{
+    margin-top: 50px;
+    height: 388px;
+    background-image: url("../img/frun2_low2.jpg");
+}
+/* 第三行*/
+.thirdline{
+    margin-top: 50px;
+}
+/* 第三行第一列*/
+.thirdline .thirdline_firstrow1{
+    width: 388px;
+    height: 388px;
+    background-image: url("../img/frun3_low2.jpg");
+    float: left;
+}
+/* 第三行第一列*/
+.thirdline .thirdline_firstrow2{
+    width: 814px;
+    height: 388px;
+    background-image: url("../img/frun3_low1.jpg"); 
+    float: right;
+}

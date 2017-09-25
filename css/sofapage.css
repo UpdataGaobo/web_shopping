@@ -1,0 +1,171 @@
+/*********************************************/
+/********沙发页面部分*********/
+/*********************************************/
+section{
+    width: auto;
+    height: auto;
+    position: relative; 
+    margin-bottom: 100px;
+    overflow-x: hidden;
+    margin-top: 20px;
+}
+/**/
+section .classifyBanner{
+    width: 1190px;
+    height: 245px;
+    background-image: url(../img/classifyBanner_1190dpi.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.classifyBanner h1{
+    color: #fff;
+    line-height: 170px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.classifyBanner ul {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+.classifyBanner ul li{
+    width: 166.6px;
+    float: left;
+    text-align: center;
+}
+.classifyBanner ul li a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    width: 108px;
+    height: 40px;
+    background-color: #838280;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+}
+.classifyBanner ul li a:hover{
+    background-color: #6ca025;
+}
+/*导航部分*/
+section .classifyheader {
+    width: 1190px;
+    height: 64px;
+    border-bottom: 1px solid #ddd;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: absolute;
+    left: calc(50% - 595px);
+}
+.classifyheader > div{
+    height: auto;
+    width: 130px;
+    float: left;
+    border: 1px solid transparent;
+    padding: 0 14px;
+    text-align: center;
+    margin-left: 15px;
+    position: relative;
+}
+.classifyheader > div > a{
+    display: block;
+    width: 100%;
+    height: 63px;
+    line-height: 62px;
+    color: #1f1c1c;
+    font-size: 20px;
+}
+.classifyheader > div ul{
+    border-top: 1px solid transparent;
+    padding: 10px 0;
+    transition: border 0.6s;
+    display: none;
+}
+.classifyheader > div ul > li{
+    font-size: 18px;
+    margin-top: 10px;
+}
+section .shop_selection{
+    width: 1190px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 145px;
+}
+/*鼠标移入事件*/
+.classifyheader > div:hover{
+    border: 1px solid #ddd; 
+    background-color: #fff;
+}
+.classifyheader > div > a:hover{
+    border-bottom: 1px solid #db1f1f;
+}
+.classifyheader > div:hover ul{
+    display: block;
+}
+.classifyheader > div ul li:hover{
+    color: #db1f1f;
+}
+/*第一行,第二行，第三行的初始化样式*/
+.shop_selectionline1 div,
+.shop_selectionline2 div,
+.shop_selectionline3 div{
+    width: 366px;
+    height: 366px;
+    border: 3px solid transparent;
+    float: left;
+    white-space: nowrap;
+    transition: border-color,background-color 0.6s,0.6s;
+    cursor: pointer;
+}
+/*给第二行，第三行一个向上的为外边距*/
+.shop_selectionline2 div,.shop_selectionline3 div{
+    margin-top: 46px;
+}
+/*每行的图片展示*/
+.selecline1 figure,.selecline2 figure,.selecline3 figure{
+    width: 360px;
+    height: 302px;
+    background-image: url("../img/timg-log2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*每行的文本样式设置*/
+.selecline1 address,.selecline2 address,.selecline3 address{
+    display: block;
+    height: 61px;
+    width: 360px;
+    text-align: center;
+}
+address  span{
+    font-style: normal;
+    line-height: 64px;
+}
+address .rateName{
+    font-size: 18px;
+}
+address .rate_number {
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+address .rate_number .price{
+    text-decoration: line-through;
+}
+.low1_rate .rate_number span:last-child{
+    color: #f51717;
+} 
+.low1,.low2{
+    margin-right: 46px;
+}
+/*鼠标已入时的样式*/
+.shop_selectionline1 > div:hover,
+.shop_selectionline2 > div:hover,
+.shop_selectionline3 > div:hover{
+    background-color: #ecf2e9;
+    border: 3px solid #82c353;
+}

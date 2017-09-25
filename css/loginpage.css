@@ -1,0 +1,83 @@
+@charset "utf-8";
+/*
+ * 功能：登录界面样式设置
+ */
+section{
+    width: 1260px;
+    height: auto;
+    position: relative; 
+    overflow: hidden;
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+/*标题样式设置*/
+.head {
+    margin-top: 60px;
+    font: normal 32px/140% "微软雅黑";
+    color: #333;
+}
+.head_cue{
+    font: normal 18px/140% "微软雅黑";
+    color: #888;
+    margin-top: 10px;
+}
+.head_cue a{
+    text-decoration: underline;
+}
+/*登录框 或 注册框样式*/
+.loginBox {
+    width: 402px;
+    height: auto;
+    margin-bottom: 180px;
+    margin: 0 auto;
+}
+.loginBox div{
+    margin-top: 40px;
+    position: relative;
+}
+.loginBox label{
+    display: block;
+    line-height: 200%;
+    font-size: 18px;
+    text-align: left;
+}
+.loginBox span{
+    display: block;
+    font-size: 15px;
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: #d92c2c;
+    font-weight: bold;
+}
+.loginBox input.Style{
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #555;
+    padding: 0 10px;
+}
+.loginBox input.Style:focus{
+    border: 1px solid #82c353;
+    box-shadow: 0 0 10px rgba(130, 195, 83, 0.6);
+}
+form > p{
+    text-align: right;
+    margin-top: 10px;
+}
+/*按钮设置*/
+.loginBtn{
+    width: 400px;
+    height: 64px;
+    background-color: #838281;
+    border: none;
+    text-align: center;
+    font: normal 32px/64px "微软雅黑";
+    color: #fff;
+    margin-top: 40px;
+    cursor: not-allowed;
+}

@@ -1,0 +1,108 @@
+                <footer>
+                <div class="footer_title">
+                生活要过的朴素而有味道，但不用过得奢华
+                </div>
+                <div class="footer_ul1">
+                    <ul>
+                        <li class = "theme1">
+                            <i>环保</i>
+                            <span>无甲醛 大自然</span>
+                        </li>
+                        <li>
+                            <i>低价</i>
+                            <span>低于购买价6折</span>
+                        </li>
+                        <li>
+                            <i>安全</i>
+                            <span>专业清洁消毒处理</span>
+                        </li>
+                        <li>
+                            <i>省心</i>
+                            <span>专业物流配送安装</span>
+                        </li>
+                        <li>
+                            <i>快捷</i>
+                            <span>24小时内送货</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_ul2">
+                    <ul>
+                        <li>
+                            <h3>关于我们</h3>
+                            <p>
+                                <a href="#">关于户里</a>
+                                <a href="#">注册协议</a>
+                            </p>
+                            <p>
+                                <a href="#">业务合作</a>
+                                <a href="#">免责声明</a>
+                            </p>
+                            <p>
+                                <a href="#">加入户里</a>
+                                <a href="#">隐私保护</a>
+                            </p>
+                        </li>
+                        <li>
+                            <h3>会员中心</h3>
+                            <p>
+                                <a href="#">会员计划</a>
+                            </p>
+                            <p>
+                                <a href="#">积分规则</a>
+                            </p>
+                            <p>
+                                <a href="#">投诉建议</a>
+                            </p>
+                        </li>
+                        <li>
+                            <h3>联系客服</h3>
+                            <p>
+                                <a href="#">电话:</a>
+                            </p>
+                            <p>
+                                <a href="#">028-67635062</a> 
+                            </p>
+                            <p>
+                                <a href="#">邮箱:</a>
+                            </p>
+                            <p>
+                                <a href="#">hello@hulihome.com</a>
+                            </p>
+                        </li>
+                        <li>
+                            <h3>流程指南</h3>
+                            <p>
+                                <a href="#">购买家具</a>
+                                <a href="#">出售家具</a>
+                            </p>
+                            <p>
+                                <a href="#">支付方式</a>
+                                <a href="#">配送安装</a>
+                            </p>
+                            <p>
+                                <a href="#">售后保障</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="sina"></i>
+                                <span>新浪微博@户里网</span>
+                            </p>
+                            <div class="sina_img">
+                            </div>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="WeChat2"></i>
+                                <span>关注微信“户里网</span>
+                            </p>
+                            <div class="WeChat2_img">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_WeChat">
+                    <span class="footer_WeChatimg">蜀ICP备15028224号  成都户里科技有限公司</span>
+                </div>
+                </footer>

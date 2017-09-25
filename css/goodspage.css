@@ -1,0 +1,314 @@
+@charset "utf-8";
+/*
+ * 功能：商品详情样式
+ */
+section{
+    width: 1200px;
+    height: auto;
+    position: relative; 
+    margin-bottom: 100px;
+    overflow: hidden;
+    margin-top: 10px;
+    padding: 10px 0 0;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+/*<!--商品展示-->*/
+/*图片展示*/
+.showInfor{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.showInfor .show_img{
+    width: 592px;
+    height: auto;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.show_img .img_main{
+    height: 439px;
+    border-radius: 5px;
+    white-space: nowrap;
+    position: relative;
+}
+/*主图展示样式*/
+.show_img .img_main img{
+    position: absolute;
+    left: 0;
+    border-radius: 5px;
+    display: none;
+    transition: 0.5s;
+}
+.show_img .img_main .img_block {
+	display: block;
+}
+/*缩略图展示样式*/
+.show_img .img_secondary{
+    margin-top: 20px;
+    height: 114px;
+}
+.img_secondary ul{
+    width: 100%;
+    height: 115px;
+    white-space: nowrap;
+}
+.img_secondary ul li{
+    width: 112px;
+    height: 112px;
+    border:3px solid transparent;
+    float: left;
+    margin-left: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.img_secondary ul .active {
+    border:3px solid #c4ea24;
+}
+.img_secondary ul li{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: 0.5s;
+}
+.img_secondary ul li:nth-child(1){
+    background-image: url("../img/timg2_2.png");
+}
+.img_secondary ul li:nth-child(2){
+    background-image: url("../img/timg5_5.png");
+}
+.img_secondary ul li:nth-child(3){
+    background-image: url("../img/timg1_1.png");
+}
+.img_secondary ul li:nth-child(4){
+    background-image: url("../img/timg4_4.png");
+}
+.img_secondary ul li:nth-child(5){
+    background-image: url("../img/timg3_3.png");
+}
+
+/*<!--  文字信息展现-->*/
+.showInfor .show_word{
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+}
+.show_word .word_name h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.show_word .word_name p{
+    margin-top: 16px;
+    color: #b4b3b3;
+}
+.word_price span{
+    font-size: 72px;
+}
+.word_price span:nth-child(1){
+    text-decoration: line-through;
+}
+.word_price span:nth-child(2){
+    color: #d91616;
+}
+.word_dyname div{
+    font-size: 18px;
+    margin:15px 0;
+}
+.word_dyname .integral span{
+    display: inline-block;
+    width: 90px;
+}
+.word_dyname .integral a{
+    text-decoration: underline;
+    color: #a3a3a3;
+}
+/*库存数量*/
+.word_shop {
+    width: 90px;
+    height: 48px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    display: inline-block;
+}
+.word_shop .shopNumber{
+    width: 60px;
+    height: 48px;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    color: #969393;
+}
+.word_shop .countNumber{
+    display: block;
+    width: 28px;
+    height: 48px;
+    float: left;
+}
+.countNumber .plus{
+    border-bottom: 1px solid #aaa;
+}
+.countNumber a{
+    display: block;
+    width: 100%;
+    height: 23px; 
+    text-align: center;
+    background-color: #e3e3e3;
+    border-left: 1px solid #9a9b9c;
+    line-height: 24px;
+    font-size: 24px;
+    color: #666;
+}
+/*按钮样式*/
+.word_shop_btn {
+    margin-left: 100px;
+    position: relative;
+    top: -51px;
+}
+.word_shop_btn button{
+    width: 196px;
+    height: 48px;
+    line-height: 46px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-left: 10px;
+}
+/*立即购买*/
+.word_shop_btn .shoponce {
+    background-color: #db261f;
+    border: none;
+    color: #fff;
+}
+.word_shop_btn .shoponce:hover{
+    background-color: #c12f2f;
+}
+/*加入购物车*/
+.word_shop_btn .shopjoin {
+    background-color: #ffffff;
+    border: 1px solid #aaa;
+    color: #999;
+}
+.word_shop_btn .shopjoin:hover{
+    background-color: #aaa;
+    color: #fff;
+}
+/*在线客服*/
+.onlineServer button{
+    width: 157px;
+    height: 48px;
+    background-image: url("../img/service_img.png");
+    background-repeat: no-repeat;
+    border: none;
+}
+.onlineServer button:hover{
+    background-position: 0 -48px;
+}
+/*户里客服*/
+.shopOnline p{
+    width: 100%;
+    height: auto;
+    line-height: 26px;
+    padding: 10px 10px;
+    background-color: #666;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #f3f3f3;
+    margin-top: 12px;
+   
+}
+.shopOnline p span{
+    display:inline-block;
+    width: 508px;
+}
+/*<!--商品规格-->*/
+.standard ,.detail,.giveGoods,.groomGoods{
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+section > div > h1{
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    border-bottom: 1px solid #ccc;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.standard aside{
+    display: inline-block;
+    width: 300px;
+    line-height: 30px;
+    font-size: 18px
+}
+aside span{
+    margin-left: 1px;
+}
+.detail aside{
+    height: 350px;
+    background-color: #ebebeb;
+    border-radius: 3px;
+}
+.giveGoods aside{
+    font-size: 18px;
+}
+.shop_selectionline1 div{
+    width: 366px;
+    height: 366px;
+    border: 3px solid transparent;
+    float: left;
+    white-space: nowrap;
+    transition: border-color,background-color 0.6s,0.6s;
+    cursor: pointer;
+}
+/*给第二行，第三行一个向上的为外边距*/
+.shop_selectionline2 div{
+    margin-top: 46px;
+}
+/*每行的图片展示*/
+.selecline1 figure{
+    width: 360px;
+    height: 302px;
+    background-image: url("../img/timg-log2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*每行的文本样式设置*/
+.selecline1 address{
+    display: block;
+    height: 61px;
+    width: 360px;
+    text-align: center;
+}
+address  span{
+    font-style: normal;
+    line-height: 64px;
+}
+address .rateName{
+    font-size: 18px;
+}
+address .rate_number {
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+address .rate_number .price{
+    text-decoration: line-through;
+}
+.low1_rate .rate_number span:last-child{
+    color: #f51717;
+} 
+.low1,.low2{
+    margin-right: 30px;
+}
+/*鼠标已入时的样式*/
+.shop_selectionline1 > div:hover{
+    background-color: #ecf2e9;
+    border: 3px solid #82c353;
+}

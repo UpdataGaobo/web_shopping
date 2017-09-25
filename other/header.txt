@@ -1,0 +1,103 @@
+                   <header>
+                   <figure>
+                    <!-- 联系我们-->
+                    <div class="relation">
+                        <a href="#" target="_blank" class="relation_page"></a>
+                    </div>
+                    <!-- 户里·家的logo-->
+                    <div class="logo">
+                        <a href="#" target="_blank" class="logo_page"></a>
+                    </div>
+                    <!-- 户里·家的登录部分-->
+                    <div class="login">
+                        <a href="#" class="login_btn"></a>
+                        <span class="divider_0"></span>
+                        <a href="#" class="login_shop"></a>
+                    </div>
+                    <!-- 选择地区-->
+                    <div class="select">
+                        <i class="text_select">成都地区</i>
+                        <i class="text_img"></i>
+                        <dl>
+                            <dt></dt>
+                        </dl>
+                    </div>
+                </figure>
+                <nav class="header_nav">
+                    <div class="navconut">
+                        <ul>
+                            <li>
+                                <a href="#" class="sofa">沙发&nbsp;&nbsp;&nbsp;SOFAS</a>
+                                <div>
+                                    <a href="#">单人位</a>
+                                    <a href="#">双人位</a>
+                                    <a href="#">三人位</a>
+                                    <a href="#">休闲沙发</a>
+                                    <a href="#">转角沙发</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="tables">桌椅&nbsp;&nbsp;&nbsp;TABLES/CHAIRS</a> 
+                                <div>
+                                    <div class="table1">
+                                        <a href="#">餐桌</a>
+                                        <a href="#">餐椅</a>
+                                        <a href="#">书桌</a>
+                                        <a href="#">凳子</a>
+                                    </div>
+                                    <div class="table2">
+                                        <a href="#">电脑桌</a>
+                                        <a href="#">休闲椅</a>
+                                        <a href="#">梳妆台</a>
+                                        <a href="#">户外椅</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="table3">
+                                        <a href="#">其他 </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="beds">床&nbsp;&nbsp;&nbsp;BEDS</a>
+                                <div>
+                                    <a href="#">1.8米</a>
+                                    <a href="#">1.5米</a>
+                                    <a href="#">其他</a>
+                                </div> 
+                            </li>
+                            <li>
+                                <a href="#" class="storage">柜&nbsp;&nbsp;&nbsp;STORAGE</a>
+                                <div>
+                                    <div class="storage1">
+                                        <a href="#">衣柜</a>
+                                        <a href="#">书柜</a>
+                                        <a href="#">鞋柜</a>
+                                    </div>
+                                    <div class="storage2">
+                                        <a href="#">储物柜</a>
+                                        <a href="#">电视柜</a>
+                                        <a href="#">床头柜</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="storage3">
+                                        <a href="#">其他 </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="more">更多&nbsp;&nbsp;&nbsp;MORE</a>
+                                <div>
+                                    <a href="#">组合产品</a>
+                                    <a href="#">日用产品</a>
+                                    <a href="#">家居饰品</a>
+                                    <a href="#">其他</a>
+                                </div>
+                            </li> 
+                        </ul>
+                        <div class="search">
+                            <input type="text" placeholder="搜索">
+                            <i></i>
+                        </div>
+                    </div>
+                </nav>
+                </header>
